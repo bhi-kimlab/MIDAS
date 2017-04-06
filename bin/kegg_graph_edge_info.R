@@ -1,3 +1,7 @@
+wants <- c("KEGGgraph", "org.Hs.eg.db")
+has <- wants %in% rownames(installed.packages())
+if(any(!has)) install.packages(wants[!has])
+  
 library(KEGGgraph)
 library(org.Hs.eg.db)
 
