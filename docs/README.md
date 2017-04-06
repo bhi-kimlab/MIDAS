@@ -2,7 +2,7 @@
 
 MIDAS is a software tool that determines differentially activated subpaths from multi-class RNA-seq data. 
 
-![Figure](images/Fig1_overview.png)
+![Figure](https://github.com/bhi-kimlab/MIDAS/blob/master/docs/images/Fig1_overview.png)
 
 # Highrights
 
