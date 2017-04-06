@@ -1,1 +1,1 @@
-(docs/CONTRIBUTING.md)
+(docs/README.md)
