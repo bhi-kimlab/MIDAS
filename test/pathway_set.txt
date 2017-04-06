@@ -1,0 +1,10 @@
+hsa04110	Cell_cycle
+hsa04010	MAPK_sig
+hsa04151	PI3K_AKT
+hsa04210	Apoptosis
+hsa04915	Estrogen
+hsa04014	Ras_sig
+hsa04668	TNF_sig
+hsa04550	Pluripotency
+hsa04390	Hippo_sig
+hsa04310	Wnt_sig
