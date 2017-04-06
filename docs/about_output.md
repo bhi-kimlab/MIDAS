@@ -48,16 +48,17 @@ Summary_result/
 	|- cytoscape/
 ```
 
-* Subpath_Merged_result.txt: 
-		Total selected subpaths (signficnat + non-significant)
-* **Subpath_Merged_result.txt.significant.txt**: Only contains statistically significant subpaths
-* **Subpath_Merged_result.txt.significant.annotation.txt**: More informative format of **Subpath_Merged_result.txt.significant.txt**. It helps users understand what genes are involved and how they are linked to a particular subpath.
-* Subpath_Merged_result.txt.significant.txt.GO_analysis.txt: GO term analysis of determined subpaths
-* Subpath_activity_Merged_whole_result.txt: subpath activity of each sample. Comma separated file. Row is sample and column is all subpaths activity. Last column is class label.
-* Subpath_activity_Merged_whole_result.txt.mean_table.txt: Average value of subpaths activity by class.
-* Subpath_activity_Merged_whole_result.txt.mean_rank_table.txt: Average rank of subpath activity order by class.
-* Subpath_activity_Merged_whole_result.txt.mean_table.txt.significant.txt: Only contains significant subpaths.
-* Subpath_activity_Merged_whole_result.txt.mean_rank_table.txt.significant.txt: Only contains significant subpaths.
-* *networkx_figure/*: visualization of selected subpaths. Two kinds of figure are provided. One is that node label is entry id. The another is that node label is gene symbol (KEGG display name). See these figures with Subpath_Merged_result.txt.significant.annotation.txt (Recommand). Due to python library limitation, figure quality is not good.
-* *cytoscape/*: It contains input for cytoscape to draw more quality figures. See docs/cytoscape_draw_manual.pdf
+File | Explanation
+-------|-------
+Subpath_Merged_result.txt | Total selected subpaths (signficnat + non-significant)
+**Subpath_Merged_result.txt.significant.txt** | Only contains statistically significant subpaths
+**Subpath_Merged_result.txt.significant.annotation.txt** | More informative format of **Subpath_Merged_result.txt.significant.txt**. It helps users understand what genes are involved and how they are linked to a particular subpath.
+Subpath_Merged_result.txt.significant.txt.GO_analysis.txt | GO term analysis of determined subpaths
+Subpath_activity_Merged_whole_result.txt | subpath activity of each sample. Comma separated file. Row is sample and column is all subpaths activity. Last column is class label.
+Subpath_activity_Merged_whole_result.txt.mean_table.txt | Average value of subpaths activity by class.
+Subpath_activity_Merged_whole_result.txt.mean_rank_table.txt | Average rank of subpath activity order by class.
+Subpath_activity_Merged_whole_result.txt.mean_table.txt.significant.txt | Only contains significant subpaths.
+Subpath_activity_Merged_whole_result.txt.mean_rank_table.txt.significant.txt | Only contains significant subpaths.
+*networkx_figure/* |  visualization of selected subpaths. Two kinds of figure are provided. One is that node label is entry id. The another is that node label is gene symbol (KEGG display name). See these figures with Subpath_Merged_result.txt.significant.annotation.txt (Recommand). Due to python library limitation, figure quality is not good.
+*cytoscape/* | It contains input for cytoscape to draw more quality figures. See docs/cytoscape_draw_manual.pdf
 
