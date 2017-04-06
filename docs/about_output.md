@@ -10,7 +10,6 @@ Output Directory/
 
 	|- single_pathway_analysis/
 	|- Summary_result/
-		|-
 ```
 
 # kegg_pathways/
