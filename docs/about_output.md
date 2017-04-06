@@ -48,7 +48,8 @@ Summary_result/
 	|- cytoscape/
 ```
 
-* Subpath_Merged_result.txt: Total selected subpaths (signficnat + non-significant)
+* Subpath_Merged_result.txt: 
+		Total selected subpaths (signficnat + non-significant)
 * **Subpath_Merged_result.txt.significant.txt**: Only contains statistically significant subpaths
 * **Subpath_Merged_result.txt.significant.annotation.txt**: More informative format of **Subpath_Merged_result.txt.significant.txt**. It helps users understand what genes are involved and how they are linked to a particular subpath.
 * Subpath_Merged_result.txt.significant.txt.GO_analysis.txt: GO term analysis of determined subpaths
