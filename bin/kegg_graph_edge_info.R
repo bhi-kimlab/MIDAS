@@ -10,7 +10,11 @@ args <-commandArgs(TRUE)
 #functions
 #####################################
 get_edge_info_table <- function(x){
+  act_iht <- "None"
+  result = tryCatch({
   act_iht <- getName(getSubtype(x)[[1]])
+  }, error = function(e) NULL
+  )
   entry <- getEntryID(x)
   
   return(c(entry, act_iht))
@@ -68,6 +72,7 @@ for(i in 1:nodes_num){
     gene_symbol_list = sapply(mget(kegg_id_list, org.Hs.egSYMBOL, ifnotfound=NA), "[[",1)
     
     write(paste(paste(gene_symbol_list, kegg_id_list, entry_num, sep="\t"), collapse="\n"), output_convert_table, append=TRUE)
-  }, finally = next
+  }, error = function(e) NULL,
+   finally = next
   )
 }
