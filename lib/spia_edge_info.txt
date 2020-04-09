@@ -25,3 +25,4 @@ indirect effect	0
 activation_compound	1
 activation_ubiquination	1
 missing interaction	0
+None	0
